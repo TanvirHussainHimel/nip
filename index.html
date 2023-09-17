@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nipro</title>
+  <!-- icon links -->
+  <link rel="stylesheet" href="fontawesome/css/all.min.css">
+  <!-- css links -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+
+
+  <!-- font-awesome -->
+</head>
+<body>
+  <div class="container">
+
+  <!-- text change -->
+    <h1 class="text-danger">Click the button to change the text</h1>
+    <button type="button" class="btn btn-dark" onclick="textChange()">Text Change</button>
+
+    <h2 id="h2">Lorem ipsum dolor sit amet.</h2>
+
+    <hr>
+    <h1 class="text-danger">Click the button to show the date</h1>
+    <button type="button" class="btn btn-dark" onclick="showDate()">Show Date</button>
+    <h2 id="d_h2">Date</h2>
+
+    <hr>
+    <h1 class="text-danger">Click the button to ON/OFF the Bulb</h1>
+    <button onclick="bulbOn()" type="button" class="btn btn-success">Bulb On</button>
+    <button onclick="bulbOff()" type="button" class="btn btn-danger">Bulb Off</button>
+
+    <img src="images/off.gif" alt="">
+
+    <hr>
+    <h1 class="text-danger">Click the button to Change the font size</h1>
+    <button onclick="fontChange()" class="btn btn-dark">
+    FontChange</button>
+    <h2 id="f_h2">Lorem ipsum, dolor sit amet.</h2>
+
+  </div>
+
+
+<!-- script links -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
+
+

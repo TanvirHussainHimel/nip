@@ -1,0 +1,6 @@
+// text-change
+
+function textChange(){
+
+document.getElementByID('h2').innerHTML
+}
